@@ -516,10 +516,13 @@ h1 {
 }
 
 h2 {
-  text-align: center;
-  letter-spacing: 1px;
+  letter-spacing: 1.5px;
   font-family: "Arimo", sans-serif;
   color: #111133;
+  text-transform: uppercase;
+  font-size: 1.2rem;
+  line-height: 1.5;
+  text-align: center;
 }
 
 h3 {
@@ -539,20 +542,17 @@ a {
 
 .about {
   background: #f3f3f3;
-  height: 50vh;
+  height: 40vh;
   padding: 50px 0;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
 }
 
 .aboutContainer {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+}
+.aboutContainer .aboutText {
+  padding: 10px;
 }
 
 /* SKILLS SECTION */
@@ -575,9 +575,16 @@ a {
   width: 200px;
   margin: 20px 0;
 }
+.skills .skillsUl p {
+  font-size: 0.8rem;
+}
 .skills .skillsUl i {
-  font-size: 50px;
+  font-size: 2.5rem;
   margin-bottom: 10px;
+  color: #7bafb1;
+}
+.skills .skillsUl .devicon-jquery-plain, .skills .skillsUl .devicon-firebase-plain {
+  display: inline-block;
 }
 
 ul {
@@ -611,7 +618,7 @@ ul {
 }
 
 .projectText {
-  width: 60%;
+  width: 65%;
 }
 
 .projectImage {
@@ -621,13 +628,17 @@ ul {
   display: block;
 }
 
+.accent {
+  color: #ff4f8f;
+  border: 1px solid #ff4f8f;
+  border-radius: 10px;
+  padding: 2px;
+  margin: 2px;
+}
+
 /* CONTACT SECTION */
 .contact {
   padding: 50px 0;
-}
-
-* {
-  outline: 1px solid orange;
 }
 
 /* FOOTER SECTION */
