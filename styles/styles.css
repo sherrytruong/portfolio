@@ -477,6 +477,10 @@ html {
   margin: 0;
 }
 
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
 .wrapper {
   max-width: 1200px;
   width: 90%;
@@ -485,6 +489,11 @@ html {
 
 h1 {
   color: skyblue;
+  font-family: "Arimo", sans-serif;
+}
+
+p {
+  font-family: "Montserrat", sans-serif;
 }
 
 footer {

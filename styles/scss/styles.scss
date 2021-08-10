@@ -7,6 +7,10 @@
     margin: 0;
 }
 
+body {
+    font-family: $secondaryFont;
+}
+
 .wrapper {
     max-width: 1200px;
     width: 90%;
@@ -15,6 +19,11 @@
 
 h1 {
     color: skyblue;
+    font-family: $primaryFont;
+}
+
+p {
+    font-family: $secondaryFont;
 }
 
 footer {
