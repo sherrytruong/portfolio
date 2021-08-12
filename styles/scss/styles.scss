@@ -21,7 +21,7 @@ body {
 p {
     font-family: $secondaryFont;
     font-size: 0.9rem;
-    color: #535252;
+    color: #262626;
     line-height: 1.5;
 }
 
@@ -41,7 +41,7 @@ h1 {
 .patternA, .patternB {
     letter-spacing: 1.5px;
     font-family: $primaryFont;
-    color: #ff4f8f;
+    color: $primaryFontColor;
     text-transform: uppercase;
     font-size: 1.2rem;
     line-height: 1.5;
@@ -68,7 +68,7 @@ h3 {
 }
 
 a {
-    color: #ff4f8f;
+    color: $primaryFontColor;
     text-decoration: none;
 }
 
@@ -88,7 +88,7 @@ img {
 
 header {
     height: 100vh;
-    background: #f3f3f3;
+    background: $primaryBackground;
     text-align: center;
 }
 
@@ -177,7 +177,7 @@ header {
 /* ABOUT SECTION */
 
 .about {
-    background: #f3f3f3;
+    background: $primaryBackground;
     padding: 50px 30px; 
 }
 
@@ -217,7 +217,7 @@ ul {
 /* PROJECTS SECTION */
 
 .projects {
-    background: #f3f3f3;
+    background: $primaryBackground;
     padding: 50px 0;
 }
 
@@ -254,10 +254,10 @@ ul {
 
 .projectLink {
     font-family: $secondaryFont;
-    color: #ff4f8f;
+    color: $primaryFontColor;
     background: #fff;
     text-decoration: none;
-    border: 1.5px solid #ff4f8f;
+    border: 1.5px solid $primaryFontColor;
     padding: 6px 9px;
     display: inline-block;
     border-radius: 20px;
@@ -267,7 +267,7 @@ ul {
 
 .projectLink:hover, .projectLink:focus, button:hover, button:focus {
     color: #fff;
-    background: #ff4f8f;
+    background: $primaryFontColor;
     cursor: pointer;
     transition: 0.3s ease;
 }
@@ -314,14 +314,14 @@ form {
         font-family: $secondaryFont;
         font-weight: 600;
         background: #fff;
-        color: #ff4f8f;
+        color: $primaryFontColor;
         min-width: 100px;
         width: 120px;
         margin: 0 auto;
         margin-top: 10px;
         padding: 8px;
         border-radius: 20px;
-        border: 1.5px solid #ff4f8f;
+        border: 1.5px solid $primaryFontColor;
     }
 }
 
