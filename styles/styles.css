@@ -744,7 +744,7 @@ ul {
 }
 
 .projectText {
-  width: 50%;
+  width: 500px;
 }
 .projectText p {
   margin: 10px 0;
@@ -754,6 +754,7 @@ ul {
   width: 375px;
   border: 2px dashed #b6b6b6;
   border-radius: 10px;
+  margin: 0 10px;
 }
 .projectImage img {
   border-radius: 10px;
@@ -853,6 +854,11 @@ footer p {
 }
 
 /* MEDIA QUERIES */
+@media (max-width: 1160px) {
+  .projectText {
+    width: 85%;
+  }
+}
 @media (max-width: 768px) {
   h1 {
     font-size: 2.2rem;
@@ -882,11 +888,6 @@ footer p {
     top: -21px;
     -webkit-transform: rotate(90deg);
             transform: rotate(90deg);
-  }
-}
-@media (max-width: 600px) {
-  .bubble:before {
-    left: 190px;
   }
 }
 @media (max-width: 500px) {
