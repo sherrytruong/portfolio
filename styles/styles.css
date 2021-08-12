@@ -493,7 +493,7 @@ p {
 
 .wrapper {
   max-width: 1200px;
-  width: 85%;
+  width: 90%;
   margin: 0 auto;
 }
 
@@ -533,7 +533,7 @@ header p {
           justify-content: flex-end;
 }
 .navContainer ul li {
-  margin: 20px 20px;
+  margin: 20px;
 }
 
 h1 {
@@ -598,9 +598,15 @@ a:hover, a:focus {
 
 .fa-arrow-circle-up {
   position: fixed;
-  right: 30px;
-  bottom: 80px;
+  right: 20px;
+  bottom: 50px;
   font-size: 1.8rem;
+  opacity: 50%;
+}
+
+.fa-arrow-circle-up:hover,
+.fa-arrow-circle-up:focus {
+  opacity: 100%;
 }
 
 img {
@@ -616,6 +622,8 @@ img {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
 }
 
 .aboutText {
@@ -651,8 +659,8 @@ img {
 }
 
 .aboutImage {
-  max-width: 500px;
-  min-width: 150px;
+  max-width: 460px;
+  min-width: 120px;
   width: 20%;
 }
 
@@ -677,7 +685,7 @@ img {
 }
 .skills .skillsUl li {
   text-align: center;
-  width: 160px;
+  width: 133px;
   margin: 20px 0;
 }
 .skills .skillsUl p {
@@ -776,4 +784,81 @@ footer {
 }
 footer p {
   color: #fff;
+}
+
+.mobileMenu {
+  display: none;
+}
+
+/* MEDIA QUERIES */
+@media (max-width: 768px) {
+  h1 {
+    font-size: 2.2rem;
+  }
+
+  .navContainer ul {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+
+  .aboutText {
+    width: 100%;
+  }
+
+  .projectText {
+    width: 90%;
+  }
+
+  .bubble:before {
+    left: 235px;
+    top: -22px;
+    -webkit-transform: rotate(90deg);
+            transform: rotate(90deg);
+  }
+}
+@media (max-width: 600px) {
+  .bubble:before {
+    left: 190px;
+  }
+}
+@media (max-width: 500px) {
+  h1 {
+    font-size: 2rem;
+  }
+
+  .headerContainer {
+    height: auto;
+  }
+
+  .aboutText p {
+    font-size: 0.8rem;
+  }
+
+  .navContainer ul li {
+    margin: 10px;
+  }
+
+  .bubble:before {
+    left: 135px;
+  }
+}
+@media (max-width: 365px) {
+  h1 {
+    font-size: 1.8rem;
+  }
+
+  .aboutText p {
+    font-size: 0.7rem;
+  }
+
+  .navContainer ul li {
+    margin: 10px;
+    width: 50%;
+    font-size: 0.8rem;
+  }
+
+  p {
+    font-size: 0.7rem;
+  }
 }
