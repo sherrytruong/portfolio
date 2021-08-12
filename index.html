@@ -36,25 +36,38 @@
         </div>
         <div class="wrapper headerContainer">
             <div>
-                <h1 class="animate__animated animate__bounceInLeft">Hello! I'm <span class="headingAccent">Sherry Truong</span> ♡</h1>
+                <h1 class="animate__animated animate__bounceInLeft">Hello! I'm <span class="headerAccent">Sherry Truong</span>. ♡</h1>
             </div>
-            <div class="aboutContainer animate__animated animate__bounceInRight">
-                <div class="aboutImage">
+            <div class="introContainer animate__animated animate__bounceInRight">
+                <div class="introImage">
                     <img src="./assets/sherry-image.jpg" alt="">
                 </div>
-                <div class="aboutText bubble">
-                    <p>I'm a <span class="aboutAccent"><strong>Front-End Web Developer</strong></span> based in Toronto, Canada</p>
-                    <p>I code clean, accessible, and responsive websites. I am passionate about inclusion and diversity, and take a people-oriented approach to solving problems while building positive relationships within teams.</p>
-                    <p>When I am not coding, you can find me drinking tea, daydreaming about travels, playing Animal Crossing or Super Smash Bros, dabbling in arts and crafts, and obsessing over Marie Kondo.</p>
+                <div class="introText bubble">
+                    <p>Welcome to my portfolio!</p> 
+                    <p>I'm a <span class="headerAccent"><strong>Front-End Web Developer</strong></span> based in Toronto, Canada.</p>
+                    
                 </div>
             </div>
         </div>
         <div>
-            <a href="#contact" class="animate__animated animate__bounceInLeft">Get In Touch!</a>
+            <p class="animate__animated animate__bounceInLeft">Scroll down to learn more <i class="fas fa-arrow-down"></i></p>
         </div>
     </header>
     
     <main>
+        <!-- About Section -->
+        <section class="about" id="about">
+            <div class="wrapper">
+                <h2 class="patternA">About Me</h2>
+                <div class="wrapper">
+                    <p>I obtained a <strong>Web Development Certificate</strong> through <a href="http://www.junocollege.com" target="_blank">Juno College</a>'s Immersive Web Development Bootcamp. I have always been I also have a Bachelor of Commerce in Business Management from Ryerson University, majoring in Human Resources.</p><br>
+                    <p>I code clean, accessible, and responsive websites. I am passionate about inclusion and diversity, and take a people-oriented approach to solving problems while building positive relationships within teams.</p><br>
+                    <p>When I am not coding, you can find me drinking tea <i class="fas fa-mug-hot"></i>, daydreaming about travels <i class="fas fa-suitcase-rolling"></i>, playing Animal Crossing or Smash Bros <i class="fas fa-gamepad"></i>, dabbling in arts and crafts <i class="fas fa-paint-brush"></i>, or solving a puzzle <i class="fas fa-puzzle-piece"></i>.</p><br>
+                    <p>Connect with me via email at <a href="mailto:sherry.t@live.ca">sherry.t@live.ca</a>, or check out my <a href="https://ca.linkedin.com/in/sherry-truong-b2150092" target="_new">LinkedIn</a> or <a href="https://github.com/sherrytruong" target="_new">GitHub</a>!</p>
+                </div>
+            </div>
+
+        </section>
     
         <!-- Skills Section -->
         <section class="skills" id="skills">
@@ -164,7 +177,7 @@
                     </div>
                     <div class="projectText">
                         <h3>PSD Conversion</h3>
-                        <span class="projectAccent">Responsive Design | HTML5 | CSS3</span>
+                        <span class="projectAccent">Responsive Design, HTML5, CSS3</span>
                         <p>A multi-page PSD to site conversion using HTML and CSS.</p>
                         <a href="https://optimistic-neumann-e5bbd4.netlify.app/" target="_blank" class="projectLink">View Site</a>
                         <a href="https://github.com/sherrytruong/project-one" target="_blank" class="projectLink">GitHub</a>
@@ -176,18 +189,23 @@
         <!-- Contact Section -->
         <section class="contact" id="contact">
             <div class="wrapper">
-                <h2 class="patternB">Get In Touch</h2>
-                <p><a href="#" target="_new"><i class="fas fa-envelope-square"></i></a>sherry.t@live.ca</p>
-                <p><a href="https://ca.linkedin.com/in/sherry-truong-b2150092" target="_new"><i class="fab fa-linkedin"></i></a> LinkedIn</p>
+                <h2 class="patternB">Get in Touch</h2>
+                <!-- Form -->
                 <form action="https://formspree.io/f/mqkwyrwy" method="POST">
-                    <label for="name">Name:</label>
-                    <input type="text" id="name">
-                    <label for="email">Email:</label>
-                    <input type="email" id="email" name="_replyto">
-                    <label>Message:</label>
-                    <textarea name="message"></textarea>
+                    <label for="name" class="sr-only">Name:</label>
+                    <input type="text" id="name" placeholder="Name">
+                    <label for="email" class="sr-only">Email:</label>
+                    <input type="email" id="email" name="_replyto" placeholder="Email Address">
+                    <label class="sr-only">Message:</label>
+                    <textarea name="message" placeholder="Your Message..."></textarea>
                     <button type="submit">Send</button>
                 </form>
+                <ul class="contactIcons">
+                    <li><a href="mailto:sherry.t@live.ca" target="_new"><i class="fas fa-envelope-square"></i></a></li>
+                    <li><a href="https://ca.linkedin.com/in/sherry-truong-b2150092" target="_new"><i class="fab fa-linkedin"></i></a>
+                    </li>
+                    <li><a href="https://github.com/sherrytruong" target="_new"><i class="fab fa-github-square"></i></a></li>
+                </ul>
             </div>
         </section>
         
@@ -196,7 +214,7 @@
     
     <!-- Footer -->
     <footer>
-        <p> Designed and developed by Sherry Truong</p>
+        <p> Designed and developed by Sherry Truong ♥</p>
     </footer>
     
     <!-- Javascript -->
