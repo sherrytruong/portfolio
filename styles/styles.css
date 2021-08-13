@@ -510,7 +510,7 @@ h1 {
 .patternA, .patternB {
   letter-spacing: 1.5px;
   font-family: "Arimo", sans-serif;
-  color: #ff4f8f;
+  color: #ff3f85;
   text-transform: uppercase;
   font-size: 1.2rem;
   line-height: 1.5;
@@ -540,7 +540,7 @@ h3 {
 }
 
 a {
-  color: #ff4f8f;
+  color: #ff3f85;
   text-decoration: none;
 }
 
@@ -762,10 +762,10 @@ ul {
 
 .projectLink {
   font-family: "Montserrat", sans-serif;
-  color: #ff4f8f;
+  color: #ff3f85;
   background: #fff;
   text-decoration: none;
-  border: 1.5px solid #ff4f8f;
+  border: 1.5px solid #ff3f85;
   padding: 6px 9px;
   display: inline-block;
   border-radius: 20px;
@@ -775,7 +775,7 @@ ul {
 
 .projectLink:hover, .projectLink:focus, button:hover, button:focus {
   color: #fff;
-  background: #ff4f8f;
+  background: #ff3f85;
   cursor: pointer;
   -webkit-transition: 0.3s ease;
   transition: 0.3s ease;
@@ -833,14 +833,14 @@ form button {
   font-family: "Montserrat", sans-serif;
   font-weight: 600;
   background: #fff;
-  color: #ff4f8f;
+  color: #ff3f85;
   min-width: 100px;
   width: 120px;
   margin: 0 auto;
   margin-top: 10px;
   padding: 8px;
   border-radius: 20px;
-  border: 1.5px solid #ff4f8f;
+  border: 1.5px solid #ff3f85;
 }
 
 /* FOOTER SECTION */
